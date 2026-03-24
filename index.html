@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelfDev - Academia de Desarrollo Web</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="#" class="logo">SelfDev<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#cursos">Cursos</a>
+                <a href="#metodologia">Metodología</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#precios">Precios</a>
+            </div>
+            <a href="#cta" class="btn btn-primary">Comenzar</a>
+            <button class="mobile-menu-btn" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <span class="badge">Aprende a tu ritmo</span>
+            <h1>Domina el desarrollo web desde cero</h1>
+            <p class="hero-description">Academia online con cursos prácticos de HTML, CSS, JavaScript, React y más. Proyecto finales reales para construir tu portafolio profesional.</p>
+            <div class="hero-buttons">
+                <a href="#cursos" class="btn btn-primary btn-lg">Explorar Cursos</a>
+                <a href="#metodologia" class="btn btn-secondary btn-lg">Cómo Funciona</a>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Estudiantes</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Cursos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">95%</span>
+                    <span class="stat-label">Tasa de Éxito</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="code-window">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="code-title">tu-primer-proyecto.js</span>
+                </div>
+                <pre class="code-content"><code><span class="keyword">const</span> <span class="variable">estudiante</span> = {
+  nombre: <span class="string">"Tu Nombre"</span>,
+  nivel: <span class="string">"Principiante"</span>,
+  objetivo: <span class="string">"Convertirme en desarrollador"</span>
+};
+
+<span class="keyword">function</span> <span class="function">aprender</span>() {
+  <span class="keyword">return</span> <span class="string">"Éxito"</span>;
+}
+
+<span class="comment">// Tu viaje comienza aquí →</span>
+<span class="variable">console</span>.<span class="method">log</span>(<span class="function">aprender</span>()); <span class="comment">// "Éxito"</span></code></pre>
+            </div>
+        </div>
+    </header>
+
+    <section id="cursos" class="section courses">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Biblioteca de Cursos</span>
+                <h2>Rutas de aprendizaje completas</h2>
+                <p>Desde cero hasta profesional. Cada curso incluye proyectos prácticos y código fuente.</p>
+            </div>
+            <div class="courses-grid">
+                <article class="course-card">
+                    <div class="course-icon" style="background: linear-gradient(135deg, #e34c26, #f06529);">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
+                    </div>
+                    <h3>HTML5 & Semántica</h3>
+                    <p>Fundamentos de estructura web, formularios, tablas y accesibilidad.</p>
+                    <div class="course-meta">
+                        <span>8 horas</span>
+                        <span>15 lecciones</span>
+                    </div>
+                    <span class="course-level beginner">Principiante</span>
+                </article>
+                <article class="course-card">
+                    <div class="course-icon" style="background: linear-gradient(135deg, #264de4, #2965f1);">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg>
+                    </div>
+                    <h3>CSS3 Moderno</h3>
+                    <p>Flexbox, Grid, animaciones, variables CSS y diseño responsivo.</p>
+                    <div class="course-meta">
+                        <span>12 horas</span>
+                        <span>20 lecciones</span>
+                    </div>
+                    <span class="course-level beginner">Principiante</span>
+                </article>
+                <article class="course-card">
+                    <div class="course-icon" style="background: linear-gradient(135deg, #f7df1e, #f0db4f);">
+                        <svg viewBox="0 0 24 24" fill="#323330"><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
+                    </div>
+                    <h3>JavaScript ES6+</h3>
+                    <p>Manipulación del DOM, async/await, promises, y más.</p>
+                    <div class="course-meta">
+                        <span>20 horas</span>
+                        <span>35 lecciones</span>
+                    </div>
+                    <span class="course-level intermediate">Intermedio</span>
+                </article>
+                <article class="course-card">
+                    <div class="course-icon" style="background: linear-gradient(135deg, #61dafb, #21a8d4);">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38a2.167 2.167 0 0 0-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.485.456.98.962 1.476 1.505-.5-.018-.995-.03-1.495-.03-.504 0-1.004.01-1.5.03.5-.54.995-1.046 1.495-1.505zm-13.14.02c.5.456.995.962 1.49 1.505-.5-.018-.995-.03-1.495-.03-.504 0-1.004.01-1.5.03.5-.54.995-1.046 1.495-1.505zm11.71 2.58c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.18-.63.406-1.282.66-1.933.2.39.41.783.64 1.174.225.393.465.774.705 1.147-.44-.02-.89-.037-1.345-.037-.46 0-.915.01-1.36.037.44-.572.895-1.095 1.345-1.564.455-.47.91-.993 1.36-1.565.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.096-1.345 1.565-.455.47-.91.992-1.36 1.564.44-.02.89-.034 1.345-.034.46 0 .915.01 1.36.034-.44-.572-.895-1.095-1.345-1.565-.455-.47-.91-.993-1.36-1.565zM17.8 20.02c1.12.082 2.16.31 3.023.69-.85-1.01-2.178-1.82-3.78-2.35.25.53.49 1.1.725 1.68.03.06.06.11.09.17-.02-.01-.03-.02-.04-.02-.06-.04-.12-.09-.19-.13.19-.02.38-.03.58-.04-.19.02-.38.03-.58.04l.09-.17c-.24-.58-.475-1.15-.725-1.68-1.605.53-2.935 1.34-3.78 2.35.86-.38 1.904-.61 3.023-.69-.37.35-.74.66-1.13.95-.38-.64-.77-1.28-1.15-1.91.38.02.76.06 1.14.13-.38-.07-.76-.11-1.14-.13-.38.63-.77 1.27-1.15 1.91-.38-.29-.75-.6-1.12-.95 1.12.08 2.16.31 3.02.69-.85-1.01-2.17-1.82-3.77-2.35.01 0 .01 0 .02.01.06.04.12.09.19.13-.01 0-.01-.01-.02-.01-.08-.05-.15-.1-.22-.15.37-.35.74-.66 1.13-.95.14.22.28.45.43.67-.34-.22-.7-.42-1.07-.62.37-.29.74-.6 1.13-.95.37.29.74.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95-.36-.21-.72-.4-1.07-.61.36.21.72.4 1.07.61-.01 0-.01-.01-.02-.01-.08-.05-.15-.1-.22-.15.01 0 .01.01.02.01.06.04.12.09.19.13-.01 0-.01-.01-.02-.01-.08-.05-.15-.1-.22-.15.01 0 .01.01.02.01.06.04.12.09.19.13-.01 0-.01-.01-.02-.01-.08-.05-.15-.1-.22-.15.37-.35.74-.66 1.13-.95.38.29.75.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95-.38-.2-.74-.4-1.08-.61.14-.22.28-.44.42-.67.38.29.75.6 1.12.95z"/></svg>
+                    </div>
+                    <h3>React.js</h3>
+                    <p>Componentes, hooks, context, y building apps modernas.</p>
+                    <div class="course-meta">
+                        <span>25 horas</span>
+                        <span>40 lecciones</span>
+                    </div>
+                    <span class="course-level advanced">Avanzado</span>
+                </article>
+                <article class="course-card">
+                    <div class="course-icon" style="background: linear-gradient(135deg, #68a063, #3c873a);">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 8.775l-3.95 6.825c-.125.25-.35.375-.575.375s-.45-.125-.575-.375l-2.475-4.35-2.45 4.35c-.125.25-.35.375-.575.375s-.45-.125-.575-.375L.05 8.775C-.025 8.55.05 8.3.2 8.15c.15-.15.4-.225.625-.125L12 4.7l11.175 3.325c.225.05.475 0 .625-.125.15-.15.225-.4.2-.625zM12 6.5c-2.55 0-5.1.025-7.65.075l.025.425 2.45 4.35L12 6.5zm0 0l5.175 4.35.025-.425L12 6.5z"/></svg>
+                    </div>
+                    <h3>Node.js & Express</h3>
+                    <p>APIs REST, middlewares, autenticación y bases de datos.</p>
+                    <div class="course-meta">
+                        <span>18 horas</span>
+                        <span>30 lecciones</span>
+                    </div>
+                    <span class="course-level advanced">Avanzado</span>
+                </article>
+                <article class="course-card">
+                    <div class="course-icon" style="background: linear-gradient(135deg, #3178c6, #235a97);">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"/></svg>
+                    </div>
+                    <h3>TypeScript</h3>
+                    <p>Tipos, generics, decorators y TypeScript con React.</p>
+                    <div class="course-meta">
+                        <span>15 horas</span>
+                        <span>25 lecciones</span>
+                    </div>
+                    <span class="course-level intermediate">Intermedio</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="metodologia" class="section methodology">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Nuestra Metodología</span>
+                <h2>Aprende haciendo, no mirando</h2>
+                <p>Cada lección incluye teoría mínima y mucha práctica. Tú construyes, nosotros guiamos.</p>
+            </div>
+            <div class="method-grid">
+                <div class="method-card">
+                    <div class="method-number">01</div>
+                    <h3>Contenido Estructurado</h3>
+                    <p>Lecciones paso a paso con vídeos cortos y ejercicios interactivos. Avanza a tu propio ritmo.</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-number">02</div>
+                    <h3>Proyectos Reales</h3>
+                    <p>Construye un portafolio real. Cada curso incluye un proyecto final para añadir a tu CV.</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-number">03</div>
+                    <h3>Reviews de Código</h3>
+                    <p>Obtén feedback personalizado de tu código. Aprende de tus errores y mejora rápido.</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-number">04</div>
+                    <h3>Comunidad Activa</h3>
+                    <p>Únete a nuestro Discord. Resuelve dudas, comparte avances y conecta con otros estudiantes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Testimonios</span>
+                <h2>Lo que dicen nuestros estudiantes</h2>
+            </div>
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Después de 3 meses ya tenía mi primer trabajo como desarrollador frontend. La metodología de proyectos reales hizo toda la diferencia."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MC</div>
+                        <div>
+                            <strong>María García</strong>
+                            <span>Frontend Developer en TechCorp</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card featured">
+                    <div class="testimonial-content">
+                        <p>"Empecé desde cero con cero conocimiento. Ahora trabajo como full-stack developer y he lanzado mi propia SaaS. Increíble academia."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JL</div>
+                        <div>
+                            <strong>Carlos López</strong>
+                            <span>Full-Stack Developer Freelance</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Los proyectos prácticos son exactamente lo que buscaba. Cada línea de código que escribes tiene un propósito real."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AS</div>
+                        <div>
+                            <strong>Laura Fernández</strong>
+                            <span>Junior Developer en Startup</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="precios" class="section pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Planes y Precios</span>
+                <h2>Invierte en tu futuro</h2>
+                <p>Elige el plan que mejor se adapte a tus necesidades. Sin contratos ni compromisos.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Mensual</h3>
+                    <div class="price">
+                        <span class="amount">€19</span>
+                        <span class="period">/mes</span>
+                    </div>
+                    <ul class="features">
+                        <li><svg check></svg> Acceso a todos los cursos</li>
+                        <li><svg check></svg> Proyectos prácticos</li>
+                        <li><svg check></svg> Certificados de finalización</li>
+                        <li><svg check></svg> Acceso a comunidad Discord</li>
+                        <li class="disabled"><svg></svg> Mentorías 1:1</li>
+                        <li class="disabled"><svg></svg> Reviews de código</li>
+                    </ul>
+                    <a href="#cta" class="btn btn-outline">Elegir Plan</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Más Popular</div>
+                    <h3>Anual</h3>
+                    <div class="price">
+                        <span class="amount">€149</span>
+                        <span class="period">/año</span>
+                    </div>
+                    <p class="savings">Ahorra €79 al año</p>
+                    <ul class="features">
+                        <li><svg check></svg> Todo lo del plan Mensual</li>
+                        <li><svg check></svg> Mentorías 1:1 mensuales</li>
+                        <li><svg check></svg> Reviews de código ilimitados</li>
+                        <li><svg check></svg> Acceso anticipado a nuevos cursos</li>
+                        <li><svg check></svg> Soporte prioritario</li>
+                        <li><svg check></svg> Recursos descargables</li>
+                    </ul>
+                    <a href="#cta" class="btn btn-primary">Elegir Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Mentoría</h3>
+                    <div class="price">
+                        <span class="amount">€299</span>
+                        <span class="period">/mes</span>
+                    </div>
+                    <ul class="features">
+                        <li><svg check></svg> Todo lo del plan Anual</li>
+                        <li><svg check></svg> 4 mentorías 1:1 al mes</li>
+                        <li><svg check></svg> Revisión de portfolio</li>
+                        <li><svg check></svg> Preparación para entrevistas</li>
+                        <li><svg check></svg> Ayuda para encontrar trabajo</li>
+                        <li><svg check></svg> Acceso directo por Slack</li>
+                    </ul>
+                    <a href="#cta" class="btn btn-outline">Elegir Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="section cta">
+        <div class="container">
+            <h2>¿Listo para empezar tu camino?</h2>
+            <p>Únete a cientos de estudiantes que ya están aprendiendo desarrollo web con nosotros.</p>
+            <form class="cta-form" id="signup-form">
+                <input type="email" placeholder="tu@email.com" required>
+                <button type="submit" class="btn btn-primary btn-lg">Empezar Gratis</button>
+            </form>
+            <p class="cta-note">7 días gratis. Cancela cuando quieras.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">SelfDev<span class="dot">.</span></a>
+                    <p>Academia online para aprender desarrollo web y construir tu carrera tecnológica.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Cursos</h4>
+                    <a href="#">HTML & CSS</a>
+                    <a href="#">JavaScript</a>
+                    <a href="#">React</a>
+                    <a href="#">Node.js</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Trabaja con Nosotros</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <a href="#">Términos de Uso</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SelfDev. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/scripts/main.js"></script>
+</body>
+</html>
