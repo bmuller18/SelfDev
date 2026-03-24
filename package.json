@@ -1,0 +1,23 @@
+{
+  "name": "selfdev-academia",
+  "version": "1.0.0",
+  "description": "Academia online para aprender desarrollo web y programación",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": ["web-development", "academy", "html", "css", "javascript"],
+  "author": "",
+  "license": "ISC",
+
+   "cambios": [    {
+      "fecha": "2024-06-01",
+      "descripcion": "Actualización de contenido en la sección de JavaScript"
+    },
+    {
+      "fecha": "2024-06-15",
+      "descripcion": "Corrección de errores en el módulo de CSS"
+    }]
+}
